@@ -12,31 +12,6 @@ Reference Code:  [relational-networks](https://github.com/kimhc6028/relational-n
 
 Paper: [A simple neural network module for relational reasoning](https://arxiv.org/pdf/1706.01427v1.pdf)
 
-## Reprod Log
-Based on 'reprod_log' model, the following documents are produced.
-```
-log_reprod
-├── forward_paddle.npy
-├── forward_torch.npy
-├── metric_paddle.npy
-├── metric_torch.npy
-├── loss_paddle.npy
-├── loss_torch.npy
-├── bp_align_paddle.npy
-├── bp_align_torch.npy
-├── train_align_paddle.npy
-├── train_align_benchmark.npy
-```
-
-Based on 'ReprodDiffHelper' model, the following five log files are produced.
-
-```
-├── forward_diff.log
-├── metric_diff.log
-├── loss_diff.log
-├── bp_align_diff.log
-├── train_align_diff.log
-```
 ## Dataset
 
 Sort-of-CLEVR is simplified version of [CLEVR](http://cs.stanford.edu/people/jcjohns/clevr/).This is composed of 10000 images and 20 questions (10 relational questions and 10 non-relational questions) per each image. 6 colors (red, green, blue, orange, gray, yellow) are assigned to randomly chosen shape (square or circle), and placed in a image.
